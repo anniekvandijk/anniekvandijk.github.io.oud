@@ -31,6 +31,15 @@ Then clone it to your local machine and run:
 $ bundle
 ```
 
+## Running Local Server
+You may want to preview the site contents before publishing, so just run it by:
+
+```
+$ bundle exec jekyll s
+```
+
+After a while, the local service will be published at http://127.0.0.1:4000/anniekvandijk.github.io.
+
 ## Usage
 
 Please see the [theme's docs](https://github.com/cotes2020/jekyll-theme-chirpy#usage).
