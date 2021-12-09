@@ -53,7 +53,11 @@ So a better approach is looking for a nice blog template with a 'theme starter'.
 
 A nice starting point is [Jekyll templates free section](https://jekyllthemes.io/free) Most themes have a theme starter to get you up and running in no time. 
 
-Minimal Mistakes is a very populair theme and they have a theme starter. It is a bit hard to find. Their normal template is [Mistakes Jekyll theme](https://jekyllthemes.io/theme/minimal-mistakes). When you go to their site on Github via the link at the bottom and scroll through their readme you can find a link to the theme starter somwhere half way the readme. Or, you just go to it by clicking [here](https://github.com/mmistakes/mm-github-pages-starter). In the readme of the theme starter you find a link to start the installation. When you click on it you are asked to create a new repository.
+Minimal Mistakes is a very populair theme and they have a theme starter. It is a bit hard to find. Their normal template is [Mistakes Jekyll theme](https://jekyllthemes.io/theme/minimal-mistakes). When you go to their site on Github via the link at the bottom and scroll through their readme you can find a link to the theme starter somwhere half way the readme. Or, you just go to it by clicking [here](https://github.com/mmistakes/mm-github-pages-starter). In the readme of the theme starter you find a link to start the installation.
+
+## Step 3. Create Github Pages repository
+
+When you click on the theme starter link you are asked to create a new repository.
 
 Important about this step. The name of the repository must be in a special format: \<username>.github.io. Because my username is anniekvandijk, I make a repository with the name anniekvandijk.github.io. It has to be a public repository.
 ![repo](/assets/img/blog-images/2021-12-08-First-post/Screenshot4.jpg)
@@ -72,6 +76,12 @@ I forgot how I found the template I use. But the name is Chirpy and it sounds ki
 Markdown is really great by its powerfull but minimal easy to learn functionality. Best is just to learn it by writing your first blog. This is a nice [Markdown Cheat Sheet](https://www.markdownguide.org/cheat-sheet/) you can use. 
 
 To write your first blog, follow the manual of the theme you installed. 
+
+## Step 5. Publish
+
+Github has a build in publish functionality. It automaticaly publishes your changes. 
+
+Some starters have their own publish strategy. You will recognize these by the .nokekyll file in the root directory. My theme has that file and uses Github actions to publish the site on a seperate branch.
 
 ## 6. Some tips
 
