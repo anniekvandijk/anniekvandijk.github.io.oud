@@ -16,7 +16,8 @@ Then I discovered Github Pages. You can start a free blog on Github really easy.
 2. Get a Jekyll template
 3. Create Github Pages repository
 4. Learn some Markdown and write your first blog
-5. Some tips
+5. Publish
+6. Some tips
 
 ---
 
@@ -71,4 +72,10 @@ I forgot how I found the template I use. But the name is Chirpy and it sounds ki
 Markdown is really great by its powerfull but minimal easy to learn functionality. Best is just to learn it by writing your first blog. This is a nice [Markdown Cheat Sheet](https://www.markdownguide.org/cheat-sheet/) you can use. 
 
 To write your first blog, follow the manual of the theme you installed. 
+
+## 6. Some tips
+
+- Make a good decission about the template you want to use. Changing it later is not always easy. So it needs to fit your needs as good as possible. 
+- when you start a new post. Use a seperate 'branch' untill you think the post is good enough and then merge it with your main branch. 
+- You can clone the repository to your local machine and run your website there until you are satisfied and then push the changes to the main branch. you need a IDE like [Visual Studio Code](https://code.visualstudio.com/) and some local installation of Ruby and Jekyll. Don't forget to install a Markdown extension in VS Code. You can find information for local running and more on the official [Jekyll site](https://jekyllrb.com/docs/)
 
