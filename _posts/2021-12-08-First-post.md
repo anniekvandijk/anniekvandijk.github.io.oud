@@ -15,8 +15,8 @@ Then I discovered Github Pages. You can start a free blog on Github really easy.
 1. Create a Github account
 2. Get a Jekyll template
 3. Create Github Pages repository
-4. Learn some Markdown and write your first blog
-5. Publish
+4. Publish
+5. Learn some Markdown and write your first blog
 6. Some tips
 
 ---
@@ -62,8 +62,8 @@ When you click on the theme starter link you are asked to create a new repositor
 Important about this step. The name of the repository must be in a special format: \<username>.github.io. Because my username is anniekvandijk, I make a repository with the name anniekvandijk.github.io. It has to be a public repository.
 ![repo](/assets/img/blog-images/2021-12-08-First-post/Screenshot4.jpg)
 
-Your site should be running after creating the repository!!!
-In my case on https://anniekvandijk.github.io/.
+Github has a build in publish functionality. It automaticaly publishes your changes on the main branch. Your site should be running after creating the repository!!!
+In my case on https://anniekvandijk.github.io/. If not 
 
 ### My template
 ![Chirpy](/assets/img/blog-images/2021-12-08-First-post/Screenshot1.jpg) 
@@ -71,17 +71,16 @@ I forgot how I found the template I use. But the name is Chirpy and it sounds ki
 
 [Chirpy Jekyll template](https://chirpy.cotes.info/)
 
-## Step 4. Learn some Markdown and write your first blog
+## Step 4. Publish
+
+Some starters have their own publish strategy. You will recognize these by the .nokekyll file in the root directory. My theme has that file and uses Github actions to publish the site on a seperate branch. The theme manual is clear about that, so after selecting a diffrent branch as published source in the Github Pages Settins you can find my site too.
+
+## Step 5. Learn some Markdown and write your first blog
 
 Markdown is really great by its powerfull but minimal easy to learn functionality. Best is just to learn it by writing your first blog. This is a nice [Markdown Cheat Sheet](https://www.markdownguide.org/cheat-sheet/) you can use. 
 
 To write your first blog, follow the manual of the theme you installed. 
 
-## Step 5. Publish
-
-Github has a build in publish functionality. It automaticaly publishes your changes. 
-
-Some starters have their own publish strategy. You will recognize these by the .nokekyll file in the root directory. My theme has that file and uses Github actions to publish the site on a seperate branch.
 
 ## 6. Some tips
 
