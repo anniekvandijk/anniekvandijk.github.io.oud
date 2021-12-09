@@ -16,7 +16,7 @@ Then I discovered Github Pages. You can start a free blog on Github really easy.
 2. Get a Jekyll template
 3. Create Github Pages repository
 4. Learn some Markdown and write your first blog
-
+5. Some tips
 
 ---
 
@@ -42,13 +42,17 @@ Plain text is a bit boring. So some styling would be nice! **Markdown** is a lig
 
 Go to [https://github.com](https://github.com/) and make an GitHub Free account. Pay attention to your username, because this will be visible in your blog url. 
 
-My accountname is anniekvandijk and my Github url is https://github.com/anniekvandijk
+My accountname is anniekvandijk and my final blog url is https://anniekvandijk.github.io
 
-## Step 2. get a Jekyll template
+## Step 2. Get a Jekyll template
 
-Go to [Jekyll templates free section](https://jekyllthemes.io/free) and find a nice free blog template. Most themes have a theme starter to get you up and running very quick. 
+Now you could follow the Guthub tutorial like I did first. You end up with little choice of templates, all focussed op project pages and not on blog websites.
 
-As an example, we can use Minimal Mistakes Jekyll theme starter. Their normal tempalte i:s [Mistakes Jekyll theme](https://jekyllthemes.io/theme/minimal-mistakes). When you go to their site on Github via the link at the bottom and scroll through their readme you can find a link to the starter. Or, you just go to it by clicking [here](https://github.com/mmistakes/mm-github-pages-starter). In the readme you find a link to start the installation. When you click on it you are asked to create a new repository.
+So a better approach is looking for a nice blog template with a 'theme starter'. This installs a template on a new created repository and you can start right away. 
+
+A nice starting point is [Jekyll templates free section](https://jekyllthemes.io/free) Most themes have a theme starter to get you up and running in no time. 
+
+Minimal Mistakes is a very populair theme and they have a theme starter. It is a bit hard to find. Their normal template is [Mistakes Jekyll theme](https://jekyllthemes.io/theme/minimal-mistakes). When you go to their site on Github via the link at the bottom and scroll through their readme you can find a link to the theme starter somwhere half way the readme. Or, you just go to it by clicking [here](https://github.com/mmistakes/mm-github-pages-starter). In the readme of the theme starter you find a link to start the installation. When you click on it you are asked to create a new repository.
 
 Important about this step. The name of the repository must be in a special format: \<username>.github.io. Because my username is anniekvandijk, I make a repository with the name anniekvandijk.github.io. It has to be a public repository.
 ![repo](/assets/img/blog-images/2021-12-08-First-post/Screenshot4.jpg)
@@ -56,16 +60,15 @@ Important about this step. The name of the repository must be in a special forma
 Your site should be running after creating the repository!!!
 In my case on https://anniekvandijk.github.io/.
 
-## Step 4. Markdown
-
-Markdown is a nice 
-
-![markdown](/assets/img/blog-images/2021-12-08-First-post/Screenshot2.jpg)
-
-[Markdown Cheat Sheet](https://www.markdownguide.org/cheat-sheet/)
-
-## My template
-
-![Chirpy](/assets/img/blog-images/2021-12-08-First-post/Screenshot1.jpg)
+### My template
+![Chirpy](/assets/img/blog-images/2021-12-08-First-post/Screenshot1.jpg) 
+I forgot how I found the template I use. But the name is Chirpy and it sounds kinda cute. A nice clean template. This is the link to the template. Follow the github link to Github and you can get the starter installer there.
 
 [Chirpy Jekyll template](https://chirpy.cotes.info/)
+
+## Step 4. Learn some Markdown and write your first blog
+
+Markdown is really great by its powerfull but minimal easy to learn functionality. Best is just to learn it by writing your first blog. This is a nice [Markdown Cheat Sheet](https://www.markdownguide.org/cheat-sheet/) you can use. 
+
+To write your first blog, follow the manual of the theme you installed. 
+
