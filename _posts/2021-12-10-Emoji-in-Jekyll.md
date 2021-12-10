@@ -7,7 +7,7 @@ tags: [jekyll, emoji, jemoji, github pages]
 
 I am used to the emoji short text where you can put someting like : blush : in your text and it pops up like a nice emoij :blush:. When I first did this on mij blog, nothing happend. 
 
-Aperantly, you need to install a special compatible plugin **jemoji** to get the emoji working on Github pages. The short manual:
+Apparently, you need to install a special compatible plugin **jemoji** to get the emoji working on Github pages. The short manual:
 
 ## Steps
 
