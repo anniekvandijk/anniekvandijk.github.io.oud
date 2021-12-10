@@ -148,15 +148,17 @@ I did have some trouble with getting my avatar in the right place. I made a new 
 # the avatar on sidebar, support local or CORS resources
 avatar: '/assets/avatar.jpg'
 ```
-In the assets folder you can also put your images you use in the blogs. My blog images I put in a directory **/assets/img/blog-images/\<blogpagename>/**, so I know which images belong to which blog. 
+In the assets folder you can also put your images you use in the blogs. My blog images I put in a directory **/assets/img/blog-images/\<blogpagename>/**, now I know which images belong to which blog. 
 
-One of the things I do not like about this theme is the integration with Discus. So I kept it disabled. I am looking for another Comments system. Also I like a something more with the pictures like a border or something else. And a heading picture in the posts section. Also, emoji do not work. But first, publish this and then do other fun stuff :)
+One of the things I do not like about this theme is the integration with Discus. I kept it disabled. I am looking for another Comments system. Also I want some other styling for the pictures and a heading picture in the posts section. And Emoji, which do not seem to work right now. But first, publish this and then move on do other fun stuff :)
 
 ## Things I did afterwards and some tips
 
-- I cloned the repository locally to run it on my computer to see the results better in a real browser without publishing it live. You can clone the repository to your local machine and run your website there until you are satisfied and then push the changes to the main branch. you need a IDE like [Visual Studio Code](https://code.visualstudio.com/) and some local installation of Ruby and Jekyll. Don't forget to install a Markdown extension in VS Code. You can find information for local running and more on the official [Jekyll site](https://jekyllrb.com/docs/)
-
-- I work in a separate branch for a new post, to save more often without publishing. Use a separate 'branch' until you think the post is good enough and then 'merge' it with your main branch with a 'pull request'. When you start commit a post, you can choice to save it to a different branch.
+- I cloned the repository locally to run it on my computer to see the results better in (a real browser) without publishing. 
+- I work in a separate branch for a new post, to save more often without publishing.
+  
+- You can clone the repository to your local machine and run your website there until you are satisfied and then push the changes to the main branch. you need a IDE like [Visual Studio Code](https://code.visualstudio.com/) and some local installation of Ruby and Jekyll. Don't forget to install a Markdown extension in VS Code. You can find information for local running and more on the official [Jekyll site](https://jekyllrb.com/docs/)
+- Use a separate 'branch' until you think the post is good enough and then 'merge' it with your main branch with a 'pull request'. When you start commit a post, you can choice to save it to a different branch.
 
 ![Repo](/assets/img/blog-images/2021-12-08-First-post/Screenshot3.jpg)
 
