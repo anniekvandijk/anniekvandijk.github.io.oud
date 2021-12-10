@@ -80,7 +80,7 @@ Chirpy has that .nojekyll and uses Github actions to publish the site on a separ
 
 Markdown is great by its powerful but minimal and easy to learn functionality. Best is just to learn it by writing your first blog. This is a nice [Markdown Cheat Sheet](https://www.markdownguide.org/cheat-sheet/) I used.
 
-To write my first blog I created a new file in the _posts folder with this format: YEAR-MONTH-DAY-title.md, example: 2021-12-16-my-first-blog.md. This is all default for a Jekyll site. 
+To write my first blog I created a new file in the `_posts` folder with this format: `YEAR-MONTH-DAY-title.md`, example: 2021-12-16-my-first-blog.md. This is all default for a Jekyll site. 
 
 Then first add this to the top of the file:
 
@@ -138,13 +138,13 @@ _data/share.yml
 ```
 I changed things like this in the _config.yml. The other files speak for themselves. 
 
-I did have some trouble with getting my avatar in the right place. I made a new folder in the root, named **assets** and put my avatar in there. When building, it will be merged in the **_site/assets folder**. And I changed the avatar path like this:
+I did have some trouble with getting my avatar in the right place. I made a new folder in the root, named `assets` and put my avatar in there. When building, it will be merged in the `_site/assets folder`. And I changed the avatar path like this:
 
 ```yaml
 # the avatar on sidebar, support local or CORS resources
 avatar: '/assets/avatar.jpg'
 ```
-In the assets folder you can also put your images you use in the blogs. My blog images I put in a directory **/assets/img/blog-images/\<blogpagename>/**, now I know which images belong to which blog. 
+In the assets folder you can also put your images you use in the blogs. My blog images I put in a directory `/assets/img/blog-images/\<blogpagename>/`, now I know which images belong to which blog. 
 
 One of the things I do not like about this theme is the integration with Discus. I kept it disabled. I am looking for another Comments system. Also I want some other styling for the pictures and a heading picture in the posts section. And Emoji, which do not seem to work right now. But first, publish this and then move on do other fun stuff :smile:
 
