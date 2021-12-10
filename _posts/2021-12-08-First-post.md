@@ -146,7 +146,7 @@ avatar: '/assets/avatar.jpg'
 ```
 In the assets folder you can also put your images you use in the blogs. My blog images I put in a directory **/assets/img/blog-images/\<blogpagename>/**, now I know which images belong to which blog. 
 
-One of the things I do not like about this theme is the integration with Discus. I kept it disabled. I am looking for another Comments system. Also I want some other styling for the pictures and a heading picture in the posts section. And Emoji, which do not seem to work right now. But first, publish this and then move on do other fun stuff :)
+One of the things I do not like about this theme is the integration with Discus. I kept it disabled. I am looking for another Comments system. Also I want some other styling for the pictures and a heading picture in the posts section. And Emoji, which do not seem to work right now. But first, publish this and then move on do other fun stuff :smile:
 
 ## Things I did afterwards and some tips
 
