@@ -1,5 +1,5 @@
 ---
-title: How I started a free blog with Github and Jekyll in 10 minutes
+title: How I started a free blog with Github, Jekyll and Chirpy in 10 minutes
 date: 2021-12-08 13:20:00 +0100
 categories: [General, Blog]
 tags: [jekyll, github, github pages, chirpy, markdown, yekyll theme starter]

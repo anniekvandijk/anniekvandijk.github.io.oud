@@ -20,10 +20,10 @@ timezone: Europe/Amsterdam
 
 title: Anniek van Dijk                          # the main title
 
-tagline: My blog on github.io   # it will display as the sub-title
+tagline: My technical blog on github.io <p><p> Pretty neat for a slightly dyslexic Dutch women right? I do my best to keep it readable ;)
 
 description: >-                        # used by seo meta and the atom feed
-  This is my blog about the challenges I find in my projects. 
+  This is my blog about the challenges I find in my projects and how I try to solve them. 
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
 url: 'https://anniekvandijk.github.io'
