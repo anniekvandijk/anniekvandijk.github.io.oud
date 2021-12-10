@@ -1,8 +1,8 @@
 ---
 title: How I started a free blog with Github and Jekyll in 10 minutes
 date: 2021-12-08 13:20:00 +0100
-categories: [General]
-tags: [jekyll, github pages]     # TAG names should always be lowercase
+categories: [General, Blog]
+tags: [jekyll, github, github pages, chirpy, markdown, yekyll theme starter]
 ---
 
 This is my first post ever on a personal blog page. Why now? 
@@ -97,8 +97,8 @@ These are my first lines:
 ---
 title: How I started a free blog with Github and Jekyll in 10 minutes
 date: 2021-12-08 13:20:00 +0100
-categories: [General]
-tags: [jekyll, github pages]
+categories: [General, Blog]
+tags: [jekyll, github, github pages, chirpy, markdown, yekyll theme starter]
 ---
 ```
 
@@ -118,13 +118,9 @@ So after some time I was satisfied and commited the blog at the bottom of the pa
 If you commit the first post (at the bottom of the page). It will be saved in the _post directory, but there is happening more! In the background, a process runs to create all files for the blog site. This files are put into a new branch named gh-pages.
 
 The last thing I have to do to get my site online is switching the default Github Pages branch from main to gh-pages. 
-- Go to the Settings of your repository
+- Go to the Settings of your repository to the Pages section and change the Source branch from main to gh-pages. 
 
-![Repo](/assets/img/blog-images/2021-12-08-First-post/Screenshot2.jpg)
-
-- then to the Pages section and change the Source branch from main to gh-pages. 
-
-![Repo](/assets/img/blog-images/2021-12-08-First-post/Screenshot4.jpg)
+![Repo](/assets/img/blog-images/2021-12-08-First-post/change-source.jpg)
 
 After hitting save my site should be running on 
 [https://anniekvandijk.github.io](https://anniekvandijk.github.io), and it it!
@@ -154,13 +150,10 @@ One of the things I do not like about this theme is the integration with Discus.
 
 ## Things I did afterwards and some tips
 
-- I cloned the repository locally to run it on my computer to see the results better in (a real browser) without publishing. 
-- I work in a separate branch for a new post, to save more often without publishing.
-  
-- You can clone the repository to your local machine and run your website there until you are satisfied and then push the changes to the main branch. you need a IDE like [Visual Studio Code](https://code.visualstudio.com/) and some local installation of Ruby and Jekyll. Don't forget to install a Markdown extension in VS Code. You can find information for local running and more on the official [Jekyll site](https://jekyllrb.com/docs/)
-- Use a separate 'branch' until you think the post is good enough and then 'merge' it with your main branch with a 'pull request'. When you start commit a post, you can choice to save it to a different branch.
+- I cloned the repository locally to run it on my computer to see the results better in (a real browser) without publishing. You can clone the repository to your local machine and run your website there until you are satisfied and then push the changes to the main branch. you need a IDE like [Visual Studio Code](https://code.visualstudio.com/) and some local installation of Ruby and Jekyll. Don't forget to install a Markdown extension in VS Code. You can find information for local running and more on the official [Jekyll site](https://jekyllrb.com/docs/).
 
-![Repo](/assets/img/blog-images/2021-12-08-First-post/Screenshot3.jpg)
+- I work in a separate branch for a new post, to save more often without publishing. Use a separate 'branch' until you think the post is good enough and then 'merge' it with your main branch with a 'pull request'. When you start commit a post, you can choice to save it to a different branch.
 
 - Make a good decission about the template you want to use. Changing it afterwards is not always easy. So it needs to fit your needs as good as possible. 
+
 - Installation instructions are all different. If you are more technical, you can try some advanced installs, else, really try to get a theme with a Theme Starter.
