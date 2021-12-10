@@ -34,7 +34,7 @@ Then I discovered **Github Pages**. You can start a free blog on Github really e
 
 ---
 
-![Chirpy](/assets/img/blog-images/2021-12-08-First-post/Screenshot1.jpg){: width="150" height="150"} 
+![Chirpy](/assets/img/blog-images/2021-12-08-First-post/chirpy.jpg){: width="150" height="150"} 
 
 [**Chirpy**](https://chirpy.cotes.info/), my theme with a nice Theme starter. 
 
