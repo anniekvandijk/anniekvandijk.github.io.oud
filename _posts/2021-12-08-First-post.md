@@ -1,5 +1,5 @@
 ---
-title: How to start a free blog
+title: How I started a free blog with Github and Jekyll in 10 minutes
 date: 2021-12-08 13:20:00 +0100
 categories: [General]
 tags: [jekyll, github pages]     # TAG names should always be lowercase
@@ -11,12 +11,14 @@ I am working on a new project and I have some trouble finding information to hel
 
 My first challenge to write about is how to get a free blog site. You can publish on a site like Medium really ease, but the problem is, you have no influence over this site and what they do with your post. 
 
-Then I discovered **Github Pages**. You can start a free blog on Github really easy. 
-1. Create a Github account
-2. Find a Jekyll template you like with a theme starter
-3. Create Github Pages Site with the theme starter
-5. Learn some Markdown and publish your first blog
-6. Some tips
+Then I discovered **Github Pages**. You can start a free blog on Github really easy. What I did:
+1. Login to my a Github account
+2. Find a Jekyll theme I liked with a Theme Starter
+3. Create Github Pages Site with the Theme Starter
+5. Learn some Markdown and made my first blog
+6. Publish the blog
+7. Changed Site settings
+8. Some tips
 
 ---
 
@@ -32,54 +34,74 @@ Then I discovered **Github Pages**. You can start a free blog on Github really e
 
 ---
 
+![Chirpy](/assets/img/blog-images/2021-12-08-First-post/Screenshot1.jpg){: width="150" height="150"} 
+
+[**Chirpy**](https://chirpy.cotes.info/), my theme with a nice Theme starter. 
+
+---
+
 ![markdown](/assets/img/blog-images/2021-12-08-First-post/markdown.png){: width="150" height="150"} 
 
 Plain text is a bit boring. So some styling would be nice! [**Markdown**](https://www.markdownguide.org/) is a lightweight markup language that you can use to add formatting elements to plaintext text documents.
 
 ---
 
-## Step 1. Create a Github account 
+## Step 1. Login to my a Github account
 
-Go to [https://github.com](https://github.com/) and make an GitHub Free account. Pay attention to your username, because this will be visible in your blog url. 
+So I have a github account, but if you do not have an account, go to [https://github.com](https://github.com/) and make a GitHub Free account. Pay attention to your username, because this will be visible in your blog url. 
 
 My accountname is anniekvandijk and my final blog url is https://anniekvandijk.github.io
 
-## Step 2. Find a Jekyll template you like with a theme starter
+## Step 2. Find a Jekyll theme I liked with a Theme Starter
 
-A nice starting point is [jekyllthemes.io](https://jekyllthemes.io). You need to find a theme which is easy to install, like a theme with a theme starter. This installs a template on a new created repository and you can start writing immediately. 
+A nice starting point I found is [**jekyllthemes.io**](https://jekyllthemes.io). There I found [**Minimal Mistakes**](https://jekyllthemes.io/theme/minimal-mistakes), one of the most populair themes with a starter. But,  after some googling, I found [**Chirpy**](https://github.com/cotes2020/jekyll-theme-chirpy). Also a nice theme with a Theme Starter which I liked more. This theme has a starter too. You can find it [**here**](https://github.com/cotes2020/chirpy-starter).
 
-Nice themes with a theme starter:
-- [**Minimal Mistakes**](https://jekyllthemes.io/theme/minimal-mistakes), one of the most populair themes. Minimal Mistakes theme starter is a bit hard to find. When you go to their Github via the link at the bottom and scroll through their readme you can find a link to the theme starter somewhere half way the readme. Or, you just go to it by clicking [here](https://github.com/mmistakes/mm-github-pages-starter). In the readme of the theme starter you find a link to start the installation.
-- [**Chirpy**](https://github.com/cotes2020/jekyll-theme-chirpy), my theme, has a starter too. You can find it [here](https://github.com/cotes2020/chirpy-starter).
+## Step 3. Create Github Pages Site with the Theme Starter
 
-## Step 3. Create Github Pages Site with the theme starter
+So I clicked on the Theme Starter link and it redirected me to the page where you can create a new repository. The Heading of the page:
 
-When you click on the theme starter link you are asked to create a new repository. Important about this step. The name of the repository must be in a special format: 
+```
+Create a new repository from chirpy-starter
+The new repository will start with the same files and folders as cotes2020/chirpy-starter.
+```
+
+To make a Github Pages repository, 
+the name of the repository must be in a special format: 
 ```
 <username>.github.io.
 ```
-Because my username is anniekvandijk, I make a repository with the name anniekvandijk.github.io. It has to be a public repository.
+Because my username is anniekvandijk, I make a repository with the name anniekvandijk.github.io. Also it has to be a public repository. When I pressed the *Create repository from template* button. After a few seconds I had a new repository with one branch (main) and all files I needed in it. 
 
-Github has a **build in publish functionality**. It automaticaly publishes your changes on the main branch. Some starters have their own publish strategy. You will recognize these by the .nokekyll file in the root directory. My theme has that file and uses Github actions to publish the site on a seperate branch. If you follow the theme manual all will be ok :). Your site should be running on 
-```
-https://<username>.github.io/. 
-```
-In my case on [https://anniekvandijk.github.io](https://anniekvandijk.github.io). 
+> Github has a **build in publish functionality for Jekyll**. It automaticaly publishes your changes on the main branch. Some starters have their own publish strategy. You will recognize these by the .nojekyll file in the root directory. Which blockes building the site by Github.
 
-## Step 5. Learn some Markdown and publish your first blog
+Chirpy has that .nojekyll and uses Github actions to publish the site on a seperate branch named gh-pages. This branch is created when saving the first blog. 
 
-Markdown is really great by its powerfull but minimal easy to learn functionality. Best is just to learn it by writing your first blog. This is a nice [Markdown Cheat Sheet](https://www.markdownguide.org/cheat-sheet/) you can use. 
+## Step 5. Learn some Markdown and made my first blog
 
-To write your first blog create a new file in the _posts folder with this format: YEAR-MONTH-DAY-title.md, example: 2021-12-16-my-first-blog.md. This is all default for a Jekyll site. 
+Markdown is really great by its powerfull but minimal easy to learn functionality. Best is just to learn it by writing your first blog. This is a nice [Markdown Cheat Sheet](https://www.markdownguide.org/cheat-sheet/) I used.
 
-Then first add this to the file
+To write my first blog I created a new file in the _posts folder with this format: YEAR-MONTH-DAY-title.md, example: 2021-12-16-my-first-blog.md. This is all default for a Jekyll site. 
+
+Then first add this to the top of the file:
 
 ```
 ---
-layout: post
-title:  "This is my first blog!"
+title: TITLE
+date: YYYY-MM-DD HH:MM:SS +/-TTTT
+categories: [TOP_CATEGORIE, SUB_CATEGORIE]
+tags: [TAG]     # TAG names should always be lowercase
 ---
 ```
+These are my first lines:
+```
+---
+title: How I started a free blog with Github and Jekyll in 10 minutes
+date: 2021-12-08 13:20:00 +0100
+categories: [General]
+tags: [jekyll, github pages]
+---
+```
+
 And after that you can start writing in markdown. 
 
 ```
@@ -89,12 +111,51 @@ And after that you can start writing in markdown.
 
 I hope you like it!
 ```
-If you commit this post. It will be saved and published on your new site. 
+So after some time I was satisfied and commited the blog at the bottom of the page.
 
-## 6. Some tips
+## Step 5. Publish the blog
 
-- Make a good decission about the template you want to use. Changing it later is not always easy. So it needs to fit your needs as good as possible. 
-- Installation instructions are all different. If you are more technical, you can try some advanced installs, else, really try to get a theme with a theme starter. 
+If you commit the first post (at the bottom of the page). It will be saved in the _post directory, but there is happening more! In the background, a process runs to create all files for the blog site. This files are put into a new branch named gh-pages.
+
+The last thing I have to do to get my site online is switching the default Github Pages branch from main to gh-pages. 
+- Go to the Settings of your repository
+
+![Repo](/assets/img/blog-images/2021-12-08-First-post/Screenshot2.jpg)
+
+- then to the Pages section and change the Source branch from main to gh-pages. 
+
+After hitting save my site should be running on 
+[https://anniekvandijk.github.io](https://anniekvandijk.github.io), and it it!
+
+## 6. Site settings
+
+My blog is posted and it looks fine. But to get all in place, I have to edit some settings in the config file and some other files. Things you can - or need to edit -  is different for every theme. But most of the time things like social media names and urls need to be changed to point to your information.
+
+ I found 3 settings files I changed:
+
+```
+_config.yml
+_data/contact.yml
+_data/share.yml
+```
+I changed things like this in the _config.yml. The other files speak for themselves. 
+
+I did have some trouble with getting my avatar in the right place. I made a new folder in the root, named **assets** and put my avatar in there. When building, it will be merged in the **_site/assets folder**. And I changed the avatar path like this:
+
+```yaml
+# the avatar on sidebar, support local or CORS resources
+avatar: '/assets/avatar.jpg'
+```
+In the assets folder you can also put your images you use in the blogs. My blog images I put in a direcory **/assets/img/blog-images/\<blogpagename>/**, so I know which images belong to which blog. 
+
+One of the things I do not like about this theme is the integration with Discus. So I kept it disabled. I am looking for another Comments system. 
+
+Also I cloned the repository locally to run it on my computer to see the results better.
+
+## 7. Some tips
+
+- Make a good decission about the template you want to use. Changing it afterwards is not always easy. So it needs to fit your needs as good as possible. 
+- Installation instructions are all different. If you are more technical, you can try some advanced installs, else, really try to get a theme with a Theme Starter.
 - When you start a new post. Use a seperate 'branch' untill you think the post is good enough and then merge it with your main branch. 
 - You can clone the repository to your local machine and run your website there until you are satisfied and then push the changes to the main branch. you need a IDE like [Visual Studio Code](https://code.visualstudio.com/) and some local installation of Ruby and Jekyll. Don't forget to install a Markdown extension in VS Code. You can find information for local running and more on the official [Jekyll site](https://jekyllrb.com/docs/)
 
