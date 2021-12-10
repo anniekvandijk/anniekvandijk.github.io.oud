@@ -18,7 +18,7 @@ Then I discovered **Github Pages**. You can start a free blog on Github really e
 5. Learn some Markdown and made my first blog
 6. Publish the blog
 7. Changed Site settings
-8. Some tips
+8. Things I did afterwards and some tips
 
 ---
 
@@ -113,7 +113,7 @@ I hope you like it!
 ```
 So after some time I was satisfied and commited the blog at the bottom of the page.
 
-## Step 5. Publish the blog
+## Step 6. Publish the blog
 
 If you commit the first post (at the bottom of the page). It will be saved in the _post directory, but there is happening more! In the background, a process runs to create all files for the blog site. This files are put into a new branch named gh-pages.
 
@@ -127,7 +127,7 @@ The last thing I have to do to get my site online is switching the default Githu
 After hitting save my site should be running on 
 [https://anniekvandijk.github.io](https://anniekvandijk.github.io), and it it!
 
-## 6. Site settings
+## 7. Site settings
 
 My blog is posted and it looks fine. But to get all in place, I have to edit some settings in the config file and some other files. Things you can - or need to edit -  is different for every theme. But most of the time things like social media names and urls need to be changed to point to your information.
 
@@ -148,14 +148,11 @@ avatar: '/assets/avatar.jpg'
 ```
 In the assets folder you can also put your images you use in the blogs. My blog images I put in a direcory **/assets/img/blog-images/\<blogpagename>/**, so I know which images belong to which blog. 
 
-One of the things I do not like about this theme is the integration with Discus. So I kept it disabled. I am looking for another Comments system. 
+One of the things I do not like about this theme is the integration with Discus. So I kept it disabled. I am looking for another Comments system.
 
-Also I cloned the repository locally to run it on my computer to see the results better.
+## Things I did afterwards and some tips
 
-## 7. Some tips
-
+- I cloned the repository locally to run it on my computer to see the results better in a real browser without publishing it live. You can clone the repository to your local machine and run your website there until you are satisfied and then push the changes to the main branch. you need a IDE like [Visual Studio Code](https://code.visualstudio.com/) and some local installation of Ruby and Jekyll. Don't forget to install a Markdown extension in VS Code. You can find information for local running and more on the official [Jekyll site](https://jekyllrb.com/docs/)
+- I work in a seperate branch for a new post, to save more often without publishing. Use a seperate 'branch' untill you think the post is good enough and then 'merge' it with your main branch with a 'pull request'. When you start commit a post, you can choice to save it to a different branch. 
 - Make a good decission about the template you want to use. Changing it afterwards is not always easy. So it needs to fit your needs as good as possible. 
 - Installation instructions are all different. If you are more technical, you can try some advanced installs, else, really try to get a theme with a Theme Starter.
-- When you start a new post. Use a seperate 'branch' untill you think the post is good enough and then merge it with your main branch. 
-- You can clone the repository to your local machine and run your website there until you are satisfied and then push the changes to the main branch. you need a IDE like [Visual Studio Code](https://code.visualstudio.com/) and some local installation of Ruby and Jekyll. Don't forget to install a Markdown extension in VS Code. You can find information for local running and more on the official [Jekyll site](https://jekyllrb.com/docs/)
-
