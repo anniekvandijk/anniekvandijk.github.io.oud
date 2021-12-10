@@ -46,7 +46,7 @@ My accountname is anniekvandijk and my final blog url is https://anniekvandijk.g
 
 ## Step 2. Find a Jekyll template
 
-A nice starting point is [jekyllthemes.io](https://jekyllthemes.io). You need to find a theme which is easy to install, like a theme with a theme starter. This installs a template on a new created repository and you can start writing in no time. 
+A nice starting point is [jekyllthemes.io](https://jekyllthemes.io). You need to find a theme which is easy to install, like a theme with a theme starter. This installs a template on a new created repository and you can start writing immediately. 
 
 Nice themes with a theme starter:
 - [**Minimal Mistakes**](https://jekyllthemes.io/theme/minimal-mistakes), one of the most populair themes. Minimal Mistakes theme starter is a bit hard to find. When you go to their Github via the link at the bottom and scroll through their readme you can find a link to the theme starter somewhere half way the readme. Or, you just go to it by clicking [here](https://github.com/mmistakes/mm-github-pages-starter). In the readme of the theme starter you find a link to start the installation.
@@ -60,7 +60,7 @@ Important about this step. The name of the repository must be in a special forma
 
 Github has a build in publish functionality. It automaticaly publishes your changes on the main branch. Some starters have their own publish strategy. You will recognize these by the .nokekyll file in the root directory. My theme has that file and uses Github actions to publish the site on a seperate branch. If you follow the theme manual all will be ok :).
 
-Your site should be running on https://\<username>.github.io/. In my case on https://anniekvandijk.github.io/. 
+Your site should be running on https://\<username>.github.io/. In my case on [https://anniekvandijk.github.io](https://anniekvandijk.github.io). 
 
 ## Step 5. Learn some Markdown and write your first blog
 
