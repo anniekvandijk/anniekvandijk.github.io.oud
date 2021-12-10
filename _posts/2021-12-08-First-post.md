@@ -7,7 +7,7 @@ tags: [jekyll, github pages]     # TAG names should always be lowercase
 
 This is my first post ever on a personal blog page. Why now? 
 
-I am working on a new project and I have some trouble finding information to help solve some challenges. I really like when someone takes the time to write a helpfull article. So I figured, this time maybe it is my turn to create some blog posts about my challenges and how I solved it. 
+I am working on a new project, and I have some trouble finding information to help solve some challenges. I really like when someone takes the time to write a helpful article. So, I figured, this time maybe it is my turn to create some blog posts about my challenges and how I solved it. 
 
 My first challenge to write about is how to get a free blog site. You can publish on a site like Medium really ease, but the problem is, you have no influence over this site and what they do with your post. 
 
@@ -17,14 +17,14 @@ Then I discovered **Github Pages**. You can start a free blog on Github really e
 3. Create Github Pages Site with the Theme Starter
 5. Learn some Markdown and made my first blog
 6. Publish the blog
-7. Changed Site settings
+7. Change site settings
 8. Things I did afterwards and some tips
 
 ---
 
 ![markdown](/assets/img/blog-images/2021-12-08-First-post/Github.png){: width="150" height="150" }
 
-[**Github**](https://github.com/) is a place where people all over the world store and share there software and work together on software. **Github Pages** is for hosting websites for your project information on Github. But you can do other things like hosting a blog website for personal use.
+[**Github**](https://github.com/) is a place where people all over the world store and share their software and work together on software. **Github Pages** is for hosting websites for your project information on Github. But you can do other things like hosting a blog website for personal use.
 
 ---
 
@@ -54,7 +54,7 @@ My accountname is anniekvandijk and my final blog url is https://anniekvandijk.g
 
 ## Step 2. Find a Jekyll theme I liked with a Theme Starter
 
-A nice starting point I found is [**jekyllthemes.io**](https://jekyllthemes.io). There I found [**Minimal Mistakes**](https://jekyllthemes.io/theme/minimal-mistakes), one of the most populair themes with a starter. But,  after some googling, I found [**Chirpy**](https://github.com/cotes2020/jekyll-theme-chirpy). Also a nice theme with a Theme Starter which I liked more. This theme has a starter too. You can find it [**here**](https://github.com/cotes2020/chirpy-starter).
+A nice starting point I found is [**jekyllthemes.io**](https://jekyllthemes.io). There I found [**Minimal Mistakes**](https://jekyllthemes.io/theme/minimal-mistakes), one of the most popular themes with a starter. But,  after some googling, I found [**Chirpy**](https://github.com/cotes2020/jekyll-theme-chirpy). Also a nice theme with a Theme Starter which I liked more. This theme has a starter too. You can find it [**here**](https://github.com/cotes2020/chirpy-starter).
 
 ## Step 3. Create Github Pages Site with the Theme Starter
 
@@ -70,15 +70,15 @@ the name of the repository must be in a special format:
 ```
 <username>.github.io.
 ```
-Because my username is anniekvandijk, I make a repository with the name anniekvandijk.github.io. Also it has to be a public repository. When I pressed the *Create repository from template* button. After a few seconds I had a new repository with one branch (main) and all files I needed in it. 
+Because my username is anniekvandijk, I make a repository with the name anniekvandijk.github.io. Also, it has to be a public repository. When I pressed the *Create repository from template* button. After a few seconds I had a new repository with one branch (main) and all files I needed in it. 
 
-> Github has a **build in publish functionality for Jekyll**. It automaticaly publishes your changes on the main branch. Some starters have their own publish strategy. You will recognize these by the .nojekyll file in the root directory. Which blockes building the site by Github.
+> Github has a **build in publish functionality for Jekyll**. It automatically publishes your changes on the main branch. Some starters have their own publish strategy. You will recognize these by the .nojekyll file in the root directory. Which blocks building the site by Github.
 
-Chirpy has that .nojekyll and uses Github actions to publish the site on a seperate branch named gh-pages. This branch is created when saving the first blog. 
+Chirpy has that .nojekyll and uses Github actions to publish the site on a separate branch named gh-pages. This branch is created when saving the first blog. 
 
 ## Step 5. Learn some Markdown and made my first blog
 
-Markdown is really great by its powerfull but minimal easy to learn functionality. Best is just to learn it by writing your first blog. This is a nice [Markdown Cheat Sheet](https://www.markdownguide.org/cheat-sheet/) I used.
+Markdown is great by its powerful but minimal and easy to learn functionality. Best is just to learn it by writing your first blog. This is a nice [Markdown Cheat Sheet](https://www.markdownguide.org/cheat-sheet/) I used.
 
 To write my first blog I created a new file in the _posts folder with this format: YEAR-MONTH-DAY-title.md, example: 2021-12-16-my-first-blog.md. This is all default for a Jekyll site. 
 
@@ -124,10 +124,12 @@ The last thing I have to do to get my site online is switching the default Githu
 
 - then to the Pages section and change the Source branch from main to gh-pages. 
 
+![Repo](/assets/img/blog-images/2021-12-08-First-post/Screenshot4.jpg)
+
 After hitting save my site should be running on 
 [https://anniekvandijk.github.io](https://anniekvandijk.github.io), and it it!
 
-## 7. Site settings
+## 7. Change site settings
 
 My blog is posted and it looks fine. But to get all in place, I have to edit some settings in the config file and some other files. Things you can - or need to edit -  is different for every theme. But most of the time things like social media names and urls need to be changed to point to your information.
 
@@ -146,13 +148,17 @@ I did have some trouble with getting my avatar in the right place. I made a new 
 # the avatar on sidebar, support local or CORS resources
 avatar: '/assets/avatar.jpg'
 ```
-In the assets folder you can also put your images you use in the blogs. My blog images I put in a direcory **/assets/img/blog-images/\<blogpagename>/**, so I know which images belong to which blog. 
+In the assets folder you can also put your images you use in the blogs. My blog images I put in a directory **/assets/img/blog-images/\<blogpagename>/**, so I know which images belong to which blog. 
 
-One of the things I do not like about this theme is the integration with Discus. So I kept it disabled. I am looking for another Comments system.
+One of the things I do not like about this theme is the integration with Discus. So I kept it disabled. I am looking for another Comments system. Also I like a something more with the pictures like a border or something else. And a heading picture in the posts section. Also, emoji do not work. But first, publish this and then do other fun stuff :)
 
 ## Things I did afterwards and some tips
 
 - I cloned the repository locally to run it on my computer to see the results better in a real browser without publishing it live. You can clone the repository to your local machine and run your website there until you are satisfied and then push the changes to the main branch. you need a IDE like [Visual Studio Code](https://code.visualstudio.com/) and some local installation of Ruby and Jekyll. Don't forget to install a Markdown extension in VS Code. You can find information for local running and more on the official [Jekyll site](https://jekyllrb.com/docs/)
-- I work in a seperate branch for a new post, to save more often without publishing. Use a seperate 'branch' untill you think the post is good enough and then 'merge' it with your main branch with a 'pull request'. When you start commit a post, you can choice to save it to a different branch. 
+
+- I work in a separate branch for a new post, to save more often without publishing. Use a separate 'branch' until you think the post is good enough and then 'merge' it with your main branch with a 'pull request'. When you start commit a post, you can choice to save it to a different branch.
+
+![Repo](/assets/img/blog-images/2021-12-08-First-post/Screenshot3.jpg)
+
 - Make a good decission about the template you want to use. Changing it afterwards is not always easy. So it needs to fit your needs as good as possible. 
 - Installation instructions are all different. If you are more technical, you can try some advanced installs, else, really try to get a theme with a Theme Starter.
