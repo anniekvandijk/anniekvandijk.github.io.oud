@@ -20,7 +20,7 @@ timezone: Europe/Amsterdam
 
 title: Anniek van Dijk                          # the main title
 
-tagline: 'My technical blog on github.io <p><p> Pretty neat for a slightly dyslexic Dutch women right? I do my best to keep it readable :blush:'
+tagline: 'My technical blog on github.io <p><p> Pretty neat for a slightly dyslexic Dutch women right? I will do my best to keep it readable :blush:'
 
 description: >-                        # used by seo meta and the atom feed
   This is my blog about the challenges I find in my projects and how I try to solve them. 
