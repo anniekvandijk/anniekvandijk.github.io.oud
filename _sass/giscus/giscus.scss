@@ -1,0 +1,19 @@
+.giscus {
+  H4 {
+    color: var(--text-color);
+  }
+  hr {
+    border-color: var(--main-border-color);
+  }
+  .gsc-comment-box-separator {
+    line-height: 0.25rem;
+  }
+  form {
+    border-color: var(--main-border-color);
+  }
+  button {
+    background-color: var(--color-btn-primary-disabled-bg);
+    border-color: var(--color-btn-primary-disabled-border);
+    color: var(--color-btn-primary-disabled-text);
+  }
+}
