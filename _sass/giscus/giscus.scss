@@ -1,11 +1,11 @@
-  @mixin dark-scheme { 
+[data-theme="dark"] { 
     --body-bg: var(--card-bg);
     --color-border-default: var(--main-border-color);
     --color-border-muted: var(--main-border-color);
     --color-border-secondary:var(--main-border-color);
   }
 
-  @mixin light-scheme { 
+  [data-theme="light"] { 
     --body-bg: var(--card-bg);
     --color-border-default: var(--main-border-color);
     --color-border-primary: var(--main-border-color);
