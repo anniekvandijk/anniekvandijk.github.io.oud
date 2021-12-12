@@ -102,7 +102,7 @@ giscus:
   reactions_enabled    : 1
   emit-metadata        : 0
  #  theme                : "light" (default), "dark", "dark_dimmed", "transparent_dark", "preferred_color_scheme"
-  theme                : light
+  theme                : https://anniekvandijk.github.io/assets/css/style.css
   lang                 : en
 
 # ------------ The following options are not recommended to be modified ------------------
