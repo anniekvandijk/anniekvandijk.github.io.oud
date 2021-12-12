@@ -1,17 +1,19 @@
 .giscus {
-  H4 {
+  body {
+    background: var(--card-bg);
+  }
+  h4 {
     color: var(--text-color);
   }
-  hr {
+
+  .form-control {
     border-color: var(--main-border-color);
   }
-  .gsc-comment-box-separator {
-    line-height: 0.25rem;
-  }
-  form {
-    border-color: var(--main-border-color);
-  }
+  
   .color-border-primary {
+    border-color: var(--main-border-color);
+  }
+  .color-box-border-info {
     border-color: var(--main-border-color);
   }
 }
