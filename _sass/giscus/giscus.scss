@@ -5,3 +5,16 @@ body {
 h4 {
   color: var(--text-color);
 }
+
+a { 
+  color: var(--link-color);
+}
+
+.color-border-primary {
+  border-color: var(--card-border-color);
+}
+
+.color-bg-primary {
+  background-color: var(--card-bg);
+  box-shadow: 0 0 5px 0 var(--card-box-shadow);
+}
