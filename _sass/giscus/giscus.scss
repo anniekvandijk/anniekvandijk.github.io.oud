@@ -1,19 +1,14 @@
 .giscus {
-  body {
-    background: var(--card-bg);
-  }
-  h4 {
-    color: var(--text-color);
+  @mixin dark-scheme { 
+    --body-bg: var(--card-bg);
+    --color-border-default: var(--main-border-color);
   }
 
-  .form-control {
-    border-color: var(--main-border-color);
-  }
-  
-  .color-border-primary {
-    border-color: var(--main-border-color);
-  }
-  .color-box-border-info {
-    border-color: var(--main-border-color);
+  @mixin light-scheme { 
+    --body-bg: var(--card-bg);
+    --color-border-default: var(--main-border-color);
   }
 }
+
+
+
