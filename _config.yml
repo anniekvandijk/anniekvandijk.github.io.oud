@@ -91,6 +91,20 @@ disqus:
 
 paginate: 10
 
+# Giscus
+
+giscus:
+  repo                 : anniekvandijk/anniekvandijk.github.io
+  repo_id              : R_kgDOGf9Odg
+  category             : giscus-blog-anniekvandijk
+  category_id          : DIC_kwDOGf9Ods4CAO-_
+  mapping              : pathname
+  reactions_enabled    : 1
+  emit-metadata        : 0
+ #  theme                : "light" (default), "dark", "dark_dimmed", "transparent_dark", "preferred_color_scheme"
+  theme                : light
+  lang                 : en
+
 # ------------ The following options are not recommended to be modified ------------------
 
 kramdown:
