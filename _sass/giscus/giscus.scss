@@ -18,3 +18,8 @@ a {
   background-color: var(--card-bg);
   box-shadow: 0 0 5px 0 var(--card-box-shadow);
 }
+
+.form-control {
+  background-color: var(--color-canvas-default,var(--color-input-bg));
+  border-color: var(--color-border-default,var(--color-input-border));
+}
