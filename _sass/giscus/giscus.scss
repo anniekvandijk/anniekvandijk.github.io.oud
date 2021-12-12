@@ -1,4 +1,3 @@
-.giscus {
   @mixin dark-scheme { 
     --body-bg: var(--card-bg);
     --color-border-default: var(--main-border-color);
@@ -8,7 +7,3 @@
     --body-bg: var(--card-bg);
     --color-border-default: var(--main-border-color);
   }
-}
-
-
-
