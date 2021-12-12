@@ -20,7 +20,7 @@ Then I discovered **Github Pages**. You can start a free blog on Github really e
 7. Change site settings
 8. Things I did afterwards and some tips
 
----
+## What do all this names mean?
 
 ![markdown](/assets/img/blog-images/2021-12-08-First-post/Github.png){: width="150" height="150" }
 
@@ -76,7 +76,7 @@ Because my username is anniekvandijk, I make a repository with the name anniekva
 
 Chirpy has that .nojekyll and uses Github actions to publish the site on a separate branch named gh-pages. This branch is created when saving the first blog. 
 
-## Step 5. Learn some Markdown and made my first blog
+## Step 4. Learn some Markdown and made my first blog
 
 Markdown is great by its powerful but minimal and easy to learn functionality. Best is just to learn it by writing your first blog. This is a nice [Markdown Cheat Sheet](https://www.markdownguide.org/cheat-sheet/) I used.
 
@@ -113,7 +113,7 @@ I hope you like it!
 ```
 So after some time I was satisfied and commited the blog at the bottom of the page.
 
-## Step 6. Publish the blog
+## Step 5. Publish the blog
 
 If you commit the first post (at the bottom of the page). It will be saved in the _post directory, but there is happening more! In the background, a process runs to create all files for the blog site. This files are put into a new branch named gh-pages.
 
@@ -125,7 +125,7 @@ The last thing I have to do to get my site online is switching the default Githu
 After hitting save my site should be running on 
 [https://anniekvandijk.github.io](https://anniekvandijk.github.io), and it it!
 
-## 7. Change site settings
+## Step 6. Change site settings
 
 My blog is posted and it looks fine. But to get all in place, I have to edit some settings in the config file and some other files. Things you can - or need to edit -  is different for every theme. But most of the time things like social media names and urls need to be changed to point to your information.
 
