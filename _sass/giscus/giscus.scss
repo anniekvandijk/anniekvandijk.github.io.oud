@@ -7,10 +7,10 @@ h4 {
 }
 
 a { 
-  color: var(--link-color);
+  color: var(--link-color) !important;
 }
 
-.color-border-primary {
+.color-box-border-info {
   border-color: var(--card-border-color);
 }
 
