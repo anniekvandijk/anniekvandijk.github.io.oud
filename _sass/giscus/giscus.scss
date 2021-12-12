@@ -11,9 +11,7 @@
   form {
     border-color: var(--main-border-color);
   }
-  button {
-    background-color: var(--color-btn-primary-disabled-bg);
-    border-color: var(--color-btn-primary-disabled-border);
-    color: var(--color-btn-primary-disabled-text);
+  .color-border-primary {
+    border-color: var(--main-border-color);
   }
 }
