@@ -36,7 +36,7 @@ button {
 .btn-primary {
   background-color: var(--button-bg-color);
   box-shadow: var(--box-shadow);
-  color: var(--btn-text-color);
+  color: var(--btn-text-color) !important;
 }
 
 .btn-primary:disabled {
