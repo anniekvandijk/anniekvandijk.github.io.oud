@@ -1,0 +1,12 @@
+@import "giscus-properties.css";
+
+:root {
+  --text-color: #34343c;
+  --link-color: #2a408e;
+  --border-color: #eeeeee;
+  --background-color: #fbfbfb;
+  --box-shadow: #f3f3f3;
+  --contrast-bg-color: white;
+  --button-bg-color: green;
+  --btn-text-color: #f3f3f3;
+}
