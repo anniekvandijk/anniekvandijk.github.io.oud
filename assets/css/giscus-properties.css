@@ -36,11 +36,11 @@ button {
 .btn-primary {
   background-color: var(--button-bg-color);
   box-shadow: var(--box-shadow);
-  color: var(--btn-text-color) !important;
+  color: var(--btn-text-color);
 }
 
 .btn-primary:disabled {
   border-color: var(---border-color);
   background-color: var(--background-color);
-  color: var(--text-color) !important;
+  color: var(--text-color);
 }
