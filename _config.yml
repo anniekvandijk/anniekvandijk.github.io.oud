@@ -101,8 +101,8 @@ giscus:
   mapping              : pathname
   reactions_enabled    : 1
   emit-metadata        : 0
-  theme                : https://animundo.github.io/assets/css/giscus-light.css
-  dark                 : https://animundo.github.io/assets/css/giscus-dark.css #switch when mode is switched
+  theme                : https://anniekvandijk.github.io/assets/css/giscus-light.css
+  dark                 : https://anniekvandijk.github.io/assets/css/giscus-dark.css #switch when mode is switched
   lang                 : en
 
 # ------------ The following options are not recommended to be modified ------------------
