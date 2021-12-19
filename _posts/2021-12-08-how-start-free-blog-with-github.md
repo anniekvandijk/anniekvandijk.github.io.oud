@@ -60,16 +60,16 @@ A nice starting point I found is [**jekyllthemes.io**](https://jekyllthemes.io).
 
 So I clicked on the Theme Starter link and it redirected me to the page where you can create a new repository. The Heading of the page:
 
-```
-Create a new repository from chirpy-starter
-The new repository will start with the same files and folders as cotes2020/chirpy-starter.
-```
+
+`Create a new repository from chirpy-starter
+The new repository will start with the same files and folders as cotes2020/chirpy-starter.`
+
 
 To make a Github Pages repository, 
 the name of the repository must be in a special format: 
-```
-<username>.github.io.
-```
+
+`<username>.github.io`
+
 Because my username is anniekvandijk, I make a repository with the name anniekvandijk.github.io. Also, it has to be a public repository. When I pressed the *Create repository from template* button. After a few seconds I had a new repository with one branch (main) and all files I needed in it. 
 
 > Github has a **build in publish functionality for Jekyll**. It automatically publishes your changes on the main branch. Some starters have their own publish strategy. You will recognize these by the .nojekyll file in the root directory. Which blocks building the site by Github.
@@ -84,7 +84,7 @@ To write my first blog I created a new file in the `_posts` folder with this for
 
 Then first add this to the top of the file:
 
-```
+``` markdown
 ---
 title: TITLE
 date: YYYY-MM-DD HH:MM:SS +/-TTTT
@@ -93,7 +93,7 @@ tags: [TAG]     # TAG names should always be lowercase
 ---
 ```
 These are my first lines:
-```
+``` markdown
 ---
 title: How I started a free blog with Github and Jekyll in 10 minutes
 date: 2021-12-08 13:20:00 +0100
@@ -104,7 +104,7 @@ tags: [jekyll, github, github pages, chirpy, markdown, yekyll theme starter]
 
 And after that you can start writing in markdown. 
 
-```
+``` markdown
 # Welcome
 
 **Hello world**, this is my first Jekyll blog post.
@@ -131,7 +131,7 @@ My blog is posted and it looks fine. But to get all in place, I have to edit som
 
  I found 3 settings files I changed:
 
-```
+``` yaml
 _config.yml
 _data/contact.yml
 _data/share.yml
