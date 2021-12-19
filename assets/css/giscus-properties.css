@@ -42,4 +42,5 @@ button {
 .btn-primary:disabled {
   border-color: var(---border-color);
   background-color: var(--background-color);
+  color: var(--text-color) !important;
 }
