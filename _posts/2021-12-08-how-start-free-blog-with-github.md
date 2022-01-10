@@ -42,7 +42,7 @@ Then I discovered **Github Pages**. You can start a free blog on Github really e
 
 ![markdown](/assets/img/blog-images/2021-12-08-First-post/markdown.png){: width="150" height="150"} 
 
-Plain text is a bit boring. So some styling would be nice! [**Markdown**](https://www.markdownguide.org/) is a lightweight markup language that you can use to add formatting elements to plaintext text documents.
+Plain text is a bit boring. So some styling would be nice! [**Markdown**](https://www.markdownguide.org/) is a lightweight markup language that you can use to add formatting elements to plain text files.
 
 ---
 
@@ -54,7 +54,7 @@ My accountname is anniekvandijk and my final blog url is https://anniekvandijk.g
 
 ## Step 2. Find a Jekyll theme I liked with a Theme Starter
 
-A nice starting point I found is [**jekyllthemes.io**](https://jekyllthemes.io). There I found [**Minimal Mistakes**](https://jekyllthemes.io/theme/minimal-mistakes), one of the most popular themes with a starter. But,  after some googling, I found [**Chirpy**](https://github.com/cotes2020/jekyll-theme-chirpy). Also a nice theme with a Theme Starter which I liked more. This theme has a starter too. You can find it [**here**](https://github.com/cotes2020/chirpy-starter).
+A nice starting point I found is [**jekyllthemes.io**](https://jekyllthemes.io). There I found [**Minimal Mistakes**](https://jekyllthemes.io/theme/minimal-mistakes), one of the most popular themes with a starter. But,  after some googling, I found [**Chirpy**](https://github.com/cotes2020/jekyll-theme-chirpy). Also a nice theme with a Theme Starter which I liked more. You can find the Theme Starter [**here**](https://github.com/cotes2020/chirpy-starter).
 
 ## Step 3. Create Github Pages Site with the Theme Starter
 
@@ -74,7 +74,7 @@ Because my username is anniekvandijk, I make a repository with the name anniekva
 
 > Github has a **build in publish functionality for Jekyll**. It automatically publishes your changes on the main branch. Some starters have their own publish strategy. You will recognize these by the .nojekyll file in the root directory. Which blocks building the site by Github.
 
-Chirpy has that .nojekyll and uses Github actions to publish the site on a separate branch named gh-pages. This branch is created when saving the first blog. 
+Chirpy has that .nojekyll and uses Github actions to publish the site on a separate branch named `gh-pages`. This branch is created when saving the first blog. 
 
 ## Step 4. Learn some Markdown and made my first blog
 
