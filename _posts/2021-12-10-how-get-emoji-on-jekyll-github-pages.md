@@ -1,6 +1,6 @@
 ---
 title: How to get emoji on your Jekyll Github pages
-date: 2021-12-10 15:20:00 +0100
+date: 2021-12-10 10:00:00 +0100
 categories: [General, Blog]
 tags: [jekyll, emoji, jemoji, github pages]
 ---
