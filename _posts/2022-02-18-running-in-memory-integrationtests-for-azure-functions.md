@@ -1,7 +1,7 @@
 ---
 title: Running in-memory Integrations Tests for Azure Function on Github
 date: 2022-02-18 10:00:00 +0100
-categories: [Azure Functions, Test Automation]
+categories: [Test Automation, Azure Functions]
 tags: [github, in-memory, github actions, integration tests]
 ---
 
