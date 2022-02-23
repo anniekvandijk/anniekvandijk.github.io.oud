@@ -1,0 +1,12 @@
+@import "giscus-properties.css";
+
+:root {
+  --text-color: rgb(175, 176, 177);
+  --link-color: rgb(138, 180, 248);
+  --border-color: rgb(66, 66, 66);
+  --background-color: #242424;
+  --box-shadow: rgb(29, 31, 39);
+  --contrast-bg-color: rgb(27, 27, 30);
+  --button-bg-color: green;
+  --btn-text-color: rgb(175, 176, 177);
+}

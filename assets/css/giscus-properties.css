@@ -1,0 +1,46 @@
+body {
+  background: none;
+}
+
+main h4, .color-text-primary {
+    color: var(--text-color);
+}
+
+a { 
+  color: var(--link-color) !important;
+}
+
+.color-box-border-info,
+.color-border-primary, 
+.form-control,
+.gsc-social-reaction-summary-item , 
+.gsc-reply-box
+{
+  border-color: var(--border-color);
+}
+
+.input-contrast, .color-bg-canvas, .form-control {
+  background-color: var(--contrast-bg-color);
+}
+
+.color-bg-primary {
+  background-color: var(--background-color);
+  box-shadow: 0 0 5px 0 var(--box-shadow);
+}
+
+button {
+  border-color: var(--border-color) !important;
+
+}
+
+.btn-primary {
+  background-color: var(--button-bg-color);
+  box-shadow: var(--box-shadow);
+  color: var(--btn-text-color);
+}
+
+.btn-primary:disabled {
+  border-color: var(---border-color);
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
