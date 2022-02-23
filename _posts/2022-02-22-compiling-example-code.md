@@ -7,6 +7,8 @@ tags: [.NET Fiddle, compiling, C#, .NET, dotnetfiddle.net, embedding code]
 
 All you need is a **.NET Fiddle account** and a saved Fiddle. A Fiddle is like a Github Gist, but only for .NET code. 
 
+There are more tools online that can compile code. I chose .NET Fiddle, because it has nice code completion, Code Highlighting and can be embedded.
+
 ![markdown](/assets/img/blog-images/2022-02-22/Fiddle.png)
 
 ## How is this different from embedding a Github Gists?
