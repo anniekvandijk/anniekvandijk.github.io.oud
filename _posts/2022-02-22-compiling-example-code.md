@@ -32,4 +32,4 @@ Then you paste the code block in your editor. It looks like this:
 ```
 And now you have a running code block on your site :sunglasses:
 
-<iframe width="100%" height="475" src="https://dotnetfiddle.net/Widget/c4S4dB" frameborder="1"></iframe>
+<iframe width="100%" height="475" src="https://dotnetfiddle.net/Widget/c4S4dB" frameborder="0"></iframe>
