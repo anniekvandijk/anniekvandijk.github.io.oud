@@ -5,6 +5,8 @@ categories: [Blog, Styling]
 tags: [.NET Fiddle, compiling, C#, .NET, dotnetfiddle.net, embedding code]
 ---
 
+## What do you need?
+
 All you need is a **.NET Fiddle account** and a saved Fiddle. A Fiddle is like a Github Gist, but only for .NET code. 
 
 There are more tools online that can compile code. I chose .NET Fiddle, because it has nice code completion, Code Highlighting and can be embedded.
@@ -26,8 +28,8 @@ In the .NET Fiddle menu you press the 'Share Button' and copy the 'Embed on Your
 
 Then you paste the code block in your editor. It looks like this:  
 ```HTML
-<iframe width="100%" height="475" src="https://dotnetfiddle.net/Widget/pCv8Ik" frameborder="0"></iframe>
+<iframe width="100%" height="475" src="https://dotnetfiddle.net/Widget/c4S4dB" frameborder="0"></iframe>
 ```
 And now you have a running code block on your site :sunglasses:
 
-<iframe width="100%" height="475" src="https://dotnetfiddle.net/Widget/pCv8Ik" frameborder="0"></iframe>
+<iframe width="100%" height="475" src="https://dotnetfiddle.net/Widget/c4S4dB" frameborder="1"></iframe>
